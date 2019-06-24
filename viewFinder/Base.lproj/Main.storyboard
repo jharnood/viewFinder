@@ -35,7 +35,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="PicturePerfect" id="yRR-Nc-mFM">
                         <barButtonItem key="backBarButtonItem" title="Back" id="mPb-uS-jAI"/>
-                        <barButtonItem key="rightBarButtonItem" title="+" id="6AK-LT-RtI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="6AK-LT-RtI">
                             <connections>
                                 <segue destination="4gR-Uv-Y22" kind="show" id="Frw-If-2aN"/>
                             </connections>
@@ -55,13 +55,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aA-h1-UfU">
-                                <rect key="frame" x="107" y="660" width="168" height="72"/>
+                                <rect key="frame" x="107" y="747" width="168" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Camera"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjU-HS-OfQ">
-                                <rect key="frame" x="539" y="660" width="162" height="72"/>
+                                <rect key="frame" x="539" y="749" width="162" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Albums"/>

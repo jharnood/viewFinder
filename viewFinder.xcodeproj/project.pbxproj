@@ -15,6 +15,7 @@
 		18F0B1ED22C14137004F221A /* viewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B1EC22C14137004F221A /* viewFinderTests.swift */; };
 		18F0B1F822C14137004F221A /* viewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B1F722C14137004F221A /* viewFinderUITests.swift */; };
 		18F0B20622C14C13004F221A /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B20522C14C13004F221A /* AddPhotoViewController.swift */; };
+		18F0B20822C1649D004F221A /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B20722C1649D004F221A /* PhotoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18F0B1F722C14137004F221A /* viewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewFinderUITests.swift; sourceTree = "<group>"; };
 		18F0B1F922C14137004F221A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F0B20522C14C13004F221A /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18F0B20722C1649D004F221A /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				18F0B1D422C14135004F221A /* AppDelegate.swift */,
 				18F0B1D822C14135004F221A /* Main.storyboard */,
 				18F0B20522C14C13004F221A /* AddPhotoViewController.swift */,
+				18F0B20722C1649D004F221A /* PhotoTableViewController.swift */,
 				18F0B1DE22C14137004F221A /* Assets.xcassets */,
 				18F0B1E022C14137004F221A /* LaunchScreen.storyboard */,
 				18F0B1E322C14137004F221A /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				18F0B1DD22C14135004F221A /* viewFinder.xcdatamodeld in Sources */,
 				18F0B20622C14C13004F221A /* AddPhotoViewController.swift in Sources */,
+				18F0B20822C1649D004F221A /* PhotoTableViewController.swift in Sources */,
 				18F0B1D522C14135004F221A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

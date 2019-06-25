@@ -1,10 +1,3 @@
-//
-//  PhotoTableViewController.swift
-//  viewFinder
-//
-//  Created by Apple on 6/24/19.
-//  Copyright © 2019 Apple. All rights reserved.
-//
 
 import UIKit
 
@@ -47,11 +40,28 @@ class PhotoTableViewController: UITableViewController {
         }
 
 
-        // Configure the cell...
+
 
         return cell
     }
- 
+
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+
+        return true
+    }
+
+
+ override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    if editingStyle == .delete {
+    if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+        let photoToDelete = photos[indexPath.row]
+        context.delete(photoToDelete)
+        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        getPhotos()
+    }
+
+ }
+ }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "moveToDetail", sender: photos[indexPath.row])
     }

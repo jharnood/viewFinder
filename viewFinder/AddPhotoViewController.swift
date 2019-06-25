@@ -1,10 +1,3 @@
-//
-//  AddPhotoViewController.swift
-//  viewFinder
-//
-//  Created by Apple on 6/24/19.
-//  Copyright © 2019 Apple. All rights reserved.
-//
 
 import UIKit
 
@@ -19,7 +12,7 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
-        // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func cameraTapped(_ sender: Any) {
